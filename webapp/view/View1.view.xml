@@ -1,0 +1,29 @@
+<mvc:View controllerName="ovly.telas.controller.View1" xmlns:u="sap.ui.unified" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="Cadastro" showNavButton="true">
+					<content>
+						<Input value="Luiz" description="Teixeira"/>
+						<RatingIndicator />
+						<Slider min="1" max="6" value="4" step="2" />
+						<u:Currency value="100" currency="BRL" useSymbol="true" />
+
+					</content>
+					
+					<footer>
+						<OverflowToolbar>
+							<content>
+								<Button text="A" width="200px" />
+								<Button text="B" width="300px" />
+								<Button text="C" width="400px" />
+								<ToggleButton text="Ativar" />
+
+							</content>
+						</OverflowToolbar>
+					</footer>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
